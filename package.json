@@ -1,0 +1,16 @@
+{
+  "name": "chai-and-backend-project",
+  "version": "1.0.0",
+  "description": "A massive backend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ],
+  "author": "Amir Mughal",
+  "license": "ISC"
+}
