@@ -1,4 +1,5 @@
 import mongoose,{Schema} from "mongoose";
+import { asyncHandler } from "../utils/Asynchandler";
 const subscriptionSchema=new Schema({
     subscriber:{
         type:Schema.Types.ObjectId,
@@ -8,5 +9,7 @@ const subscriptionSchema=new Schema({
         type:Schema.Types.ObjectId,
         ref:"User"
     }
-})
+   },
+    {timestamps:true}
+)
 export const Subscription=mongoose.model("Subscription",subscriptionSchema);
